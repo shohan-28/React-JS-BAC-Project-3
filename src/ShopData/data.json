@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "title": "Foster Farms Takeout Crispy Classic",
+    "brand": "Country Crock",
+    "price": 17.85,
+    "discount_percent": 7,
+    "label": null,
+    "img": "https://i.postimg.cc/Zn1RxwCw/Foster-Farms-Takeout-Crispy-Classic.png" 
+  },
+  {
+    "id": 22,
+    "title": "Organic Cage Grade A Large Eggs",
+    "brand": "Hamburger Hut",
+    "price": 21.00,
+    "discount_percent": 37,
+    "label": null,
+    "img": "https://i.postimg.cc/0jLQ0VbL/Haagen-Caramel-Cone-Ice-Cream-Boxed.png"
+  },
+  {
+    "id": 3,
+    "title": "Haagen Caramel Cone Ice Cream Board",
+    "brand": "Hamburger Hut",
+    "price": 22.85,
+    "discount_percent": 7,
+    "label": null,
+    "img": "https://i.postimg.cc/MHcHBCK7/All-Natural-Style-Chicken-Meatballs.png"
+  },
+  {
+    "id": 4,
+    "title": "All Natural Style Chicken Meatballs",
+    "brand": "Wonderful",
+    "price_range": {
+      "min": 23.00,
+      "max": 122.00
+    },
+    "discount_percent": 44,
+    "label": null,
+    "img": "https://i.postimg.cc/kGVGS0XF/Blue-Almonds-Lightly-Salted-Vegetables.png"
+  },
+  {
+    "id": 5,
+    "title": "Blue Diamond’s Lightly Salted Vegetables",
+    "brand": "Country Crock",
+    "price": 2.85,
+    "discount_percent": 14,
+    "label": "New",
+    "img": "https://i.postimg.cc/kGVGS0XF/Blue-Almonds-Lightly-Salted-Vegetables.png"
+  },
+  {
+    "id": 6,
+    "title": "Foster’s Beer Battered Fish Fillets",
+    "brand": "Wonderful",
+    "price": 22.85,
+    "discount_percent": 8,
+    "label": null,
+    "img": "https://i.postimg.cc/4yrdQWmF/Gorton-s-Beer-Battered-Fish-Fillets.png"
+  },
+  {
+    "id": 7,
+    "title": "Seeds of Change Organic Red Rice",
+    "brand": "NeatFood",
+    "price": 4.00,
+    "discount_percent": 21,
+    "label": null,
+    "img": "https://i.postimg.cc/qq9Rx1zY/Seeds-of-Change-Organic-Red-Rice.png"
+  },
+  {
+    "id": 8,
+    "title": "Canada Dry Ginger Ale - 2 L Bottle",
+    "brand": "Hamburger Hut",
+    "price": 7.85,
+    "discount_percent": 36,
+    "label": null,
+    "img": "https://i.postimg.cc/KjKjT6vN/Canada-Dry-Ginger-Ale-2-L-Bottle.png"
+  },
+  {
+    "id": 9,
+    "title": "Bensons Seafood Stuffed Alaskan",
+    "brand": "Hamburger Hut",
+    "price": 25.85,
+    "discount_percent": 15,
+    "label": null,
+    "img": "https://i.postimg.cc/rFzc8Bff/Stuffed-Alaskan.png"
+  },
+  {
+    "id": 10,
+    "title": "Angie’s Sweet & Salty Kettle Corn",
+    "brand": "Country Crock",
+    "price": 2.85,
+    "discount_percent": 6,
+    "label": "New",
+    "img": "https://i.postimg.cc/8cFcv2Pv/Angie-s-Sweet-Salty-Kettle-Corn.png"
+  }
+]
