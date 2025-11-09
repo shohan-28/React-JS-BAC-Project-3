@@ -1,15 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './Component/Navbar/Navbar'
+import Banner from './Component/Banner/Banner'
+import FeaturedCategories from './Component/FeaturedCategories/FeaturedCategories'
+import ThreeCart from './Component/ThreeCart/ThreeCart'
+import MainCart from './Component/MainCart/MainCart'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <Navbar></Navbar>
+      <Banner></Banner>
+      <FeaturedCategories></FeaturedCategories>
+      <div className='flex justify-center items-center'>
+        <ThreeCart></ThreeCart>
+       
+      </div>
+       <MainCart></MainCart>
     </>
   )
 }

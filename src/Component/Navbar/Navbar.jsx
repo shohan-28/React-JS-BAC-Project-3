@@ -3,7 +3,7 @@ import { MdOutlineWhatshot } from 'react-icons/md';
 
 const Navbar = () => {
     return (
-        <div className='h-[80px] w-full bg-amber-50 flex items-center '>
+        <div className='h-[80px] w-full bg-white flex items-center '>
             <div className='flex space-x-1 w-full container mx-auto'>
                 <img src="https://i.postimg.cc/pTXVKpBv/logo.png" alt="Logo" className='h-[45px]' />
                 <div className='flex flex-col '>

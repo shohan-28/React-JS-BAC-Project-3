@@ -30,10 +30,7 @@
     "id": 4,
     "title": "All Natural Style Chicken Meatballs",
     "brand": "Wonderful",
-    "price_range": {
-      "min": 23.00,
-      "max": 122.00
-    },
+    "price": 23,
     "discount_percent": 44,
     "label": null,
     "img": "https://i.postimg.cc/kGVGS0XF/Blue-Almonds-Lightly-Salted-Vegetables.png"
