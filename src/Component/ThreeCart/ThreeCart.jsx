@@ -9,7 +9,7 @@ const ThreeCart = () => {
 
         <div className='flex justify-center items-center pb-5'>
 
-            <div className='container mx-auto grid grid-cols-3 gap-6'>
+            <div className='container mx-auto grid lg:grid-cols-3 grid-cols-1 gap-6'>
                 <div className='h-full w-full relative'>
                     <img src={Alt} alt="" className='h-[290px] ' />
                     <div className='flex flex-col absolute top-20 left-10 gap-4 w-[220px]'>

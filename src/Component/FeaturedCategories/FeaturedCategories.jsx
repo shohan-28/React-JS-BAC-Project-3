@@ -11,7 +11,7 @@ const FeaturedCategories = () => {
                 <div>
                     <p className='flex justify-start text-lg text-black font-black'>Featured Categories</p>
                 </div>
-                <div className='grid grid-cols-10 gap-5'>
+                <div className='grid lg:grid-cols-10 grid-cols-3  gap-5'>
                     {data.map((p) => (
                         <FcCart FeaturedCategoriesData={p} key={p.id}></FcCart>
                     ))}

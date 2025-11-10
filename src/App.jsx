@@ -6,6 +6,10 @@ import FeaturedCategories from './Component/FeaturedCategories/FeaturedCategorie
 import ThreeCart from './Component/ThreeCart/ThreeCart'
 import MainCart from './Component/MainCart/MainCart'
 
+import IconCart from './Component/iconCart/iconCart'
+import Footer from './Component/Footer/Footer'
+
+
 function App() {
   
 
@@ -19,6 +23,8 @@ function App() {
        
       </div>
        <MainCart></MainCart>
+       <IconCart></IconCart>
+       <Footer></Footer>
     </>
   )
 }

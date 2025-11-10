@@ -23,7 +23,7 @@ const Cart = ({ TotalCart }) => {
         <img src={img} alt="Product" className="w-full h-64 object-cover" />
         {discount_percent && (
           <span className="absolute top-0  bg-red-500 text-white text-xs font-semibold px-8 py-3 rounded-br-4xl">
-            {discount_percent}
+            -{discount_percent}%
           </span>
         )}
 
@@ -51,12 +51,12 @@ const Cart = ({ TotalCart }) => {
         {/* Price & Cart */}
         <div className="flex items-center justify-between mt-auto pt-2">
           <div className="flex  justify-center items-center">
-            <span className="text-green-600 font-bold text-2xl pr-2">$ {numericPrice}</span>
+            <span className="text-green-600 font-bold lg:text-2xl text-xl pr-2">$ {numericPrice}</span>
             <span className="text-base text-gray-600 line-through">${originalPrice}</span>
             
            
           </div>
-          <button className="bg-green-200 hover:bg-green-300 text-green-700 px-4 py-1.5 rounded-md  flex justify-center items-center">
+          <button className="cursor-pointer bg-green-200 hover:bg-green-300 text-green-700 px-4 py-1.5 rounded-md  flex justify-center items-center">
             <IoCartOutline className="pr-1 text-3xl" /> <p className='text-lg'>Add</p>
           </button>
         </div>
