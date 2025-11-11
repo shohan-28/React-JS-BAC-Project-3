@@ -1,5 +1,6 @@
 import React from 'react';
 import { MdOutlineWhatshot } from 'react-icons/md';
+import { Link } from 'react-router';
 
 const Navbar = () => {
   return (
@@ -22,7 +23,7 @@ const Navbar = () => {
 
         {/* Menu Links */}
         <div className=' lg:flex items-center text-black space-x-3 lg:space-x-6 text-sm lg:text-base lg:pt-0 pt-2'>
-          <a href="">About</a>
+          <Link to="/About">About</Link>
           <a href="">Shop</a>
           <a href="">Mega Menu</a>
           <a href="">Vendors</a>
