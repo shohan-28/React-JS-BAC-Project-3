@@ -7,7 +7,7 @@ const FcCart = ({ FeaturedCategoriesData }) => {
 
     return (
         <div className='py-5 '>
-            <div className=' bg-blue-200 rounded-xl flex flex-col justify-center items-center py-3'>
+            <div className=' bg-blue-100 rounded-xl flex flex-col justify-center items-center py-3'>
                 <div>
                     <img src={img} alt="" />
                 </div>

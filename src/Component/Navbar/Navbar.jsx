@@ -1,6 +1,8 @@
 import React from 'react';
 import { MdOutlineWhatshot } from 'react-icons/md';
 import { Link } from 'react-router';
+import Blog from './../../BlogSection/Blog';
+import Contact from './../../ContactSection/Contact';
 
 const Navbar = () => {
   return (
@@ -16,7 +18,7 @@ const Navbar = () => {
         </div>
 
         {/* Hot Deals */}
-        <div className=' lg:flex items-center space-x-2 pl-0 text-green-500 text-xl'>
+        <div className=' lg:flex items-center space-x-2 lg:pr-45 text-green-500 text-xl'>
           <MdOutlineWhatshot />
           <p className='text-black'>Hot Deals</p>
         </div>
@@ -27,9 +29,9 @@ const Navbar = () => {
           <a href="">Shop</a>
           <a href="">Mega Menu</a>
           <a href="">Vendors</a>
-          <a href="">Blog</a>
+          <Link to="/Blog">Blog</Link>
           <a href="">Pages</a>
-          <a href="">Contact</a>
+          <Link to="/Contact">Contact</Link>
         </div>
 
         {/* Login Button */}

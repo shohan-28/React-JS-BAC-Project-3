@@ -3,6 +3,8 @@ import { createBrowserRouter } from "react-router";
 import Root from "./Root";
 import About from './Component/AboutSection/About';
 import App from './App';
+import Blog from "./BlogSection/Blog";
+import Contact from "./ContactSection/Contact";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
                 path:"/About",
                 element: <About></About>
             },
+            {
+                path: "/Blog",
+                element: <Blog></Blog>
+            },
+            {
+                path: "/Contact",
+                element: <Contact></Contact>
+            }
         ]
     }
 ])

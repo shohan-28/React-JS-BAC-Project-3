@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      
       <Banner></Banner>
       <FeaturedCategories></FeaturedCategories>
       <div className='flex justify-center items-center'>
@@ -24,7 +24,7 @@ function App() {
       </div>
        <MainCart></MainCart>
        <IconCart></IconCart>
-       <Footer></Footer>
+      
     </>
   )
 }
