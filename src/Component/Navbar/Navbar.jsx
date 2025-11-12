@@ -3,6 +3,7 @@ import { MdOutlineWhatshot } from 'react-icons/md';
 import { Link } from 'react-router';
 import Blog from './../../BlogSection/Blog';
 import Contact from './../../ContactSection/Contact';
+import MegaMenu from './../MegaMenu/MegaMenu';
 
 const Navbar = () => {
   return (
@@ -27,7 +28,7 @@ const Navbar = () => {
         <div className=' lg:flex items-center text-black space-x-3 lg:space-x-6 text-sm lg:text-base lg:pt-0 pt-2'>
           <Link to="/About">About</Link>
           <a href="">Shop</a>
-          <a href="">Mega Menu</a>
+          <Link to="/MegaMenu">Mega Menu</Link>
           <a href="">Vendors</a>
           <Link to="/Blog">Blog</Link>
           <a href="">Pages</a>

@@ -5,6 +5,7 @@ import About from './Component/AboutSection/About';
 import App from './App';
 import Blog from "./BlogSection/Blog";
 import Contact from "./ContactSection/Contact";
+import MegaMenu from './Component/MegaMenu/MegaMenu';
 
 const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
             {
                 path: "/Contact",
                 element: <Contact></Contact>
+            },
+            {
+                path: "/MegaMenu",
+                element: <MegaMenu></MegaMenu>
             }
         ]
     }
