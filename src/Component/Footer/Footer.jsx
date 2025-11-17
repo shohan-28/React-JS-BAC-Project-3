@@ -11,11 +11,11 @@ const Footer = () => {
                 {/* Logo & Contact */}
                 <div className="md:col-span-1 space-y-4">
 
-                    <img src={NestLogo} alt="" />
+                    
                     <p className="text-sm">Awesome grocery store website template.</p>
                     <p className="text-sm">5171 W Campbell Ave, Kent, Utah 53127, USA</p>
                     <p className="text-sm">📞 (+91)-540-025-124553</p>
-                    <p className="text-sm text-green-400">✉️ sale@Nest.com</p>
+                    <p className="text-sm text-green-400">✉️ sale@Aladins.com</p>
                     <p className="text-sm">🕒 10:00 - 18:00, Mon - Sat</p>
                 </div>
 
