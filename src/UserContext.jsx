@@ -6,7 +6,7 @@ export const UserContext = createContext();
 const UserProvider = ({ children }) => {
 
     const [user, setUser] = useState(null);
-    const correctEmail = "test@gamil.com";
+    const correctEmail = "test@gmail.com";
     const correctPassword = "12345678";
     const login = (email, password) => {
         if (email === correctEmail && password === correctPassword) {

@@ -7,6 +7,7 @@ import Blog from "./BlogSection/Blog";
 import Contact from "./ContactSection/Contact";
 import MegaMenu from './Component/MegaMenu/MegaMenu';
 import Login from './Login';
+import Home from "./Component/Home";
 
 const router = createBrowserRouter([
     {
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
         children:[
             {
                 path:"/",
-                element: <App></App>
+                element: <Home></Home>
             },
             {
                 path:"/About",
